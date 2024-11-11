@@ -1,0 +1,46 @@
+javac - java compiler
+-d - option, we use along with javac command
+../
+
+comments in java
+-----------------
+1. comments are used for information purpose.
+2. by using comments we can mention what that specific line of code is doing. 
+3. comments will ignored by the compiler. 
+4. commented statements will be not part of the compilation.
+5. comments are also used for documentation purpose as well.
+6. There are three types of comments in java
+   1. single-line comment `//`
+   2. multi-line comments `/*   contents
+
+                                     */`
+   multi-line comment will be used to comment a block of   code. ex: to comment an entire method
+
+   3. documentation comment 
+   `/*
+    *
+    *
+    *
+    *
+    */`
+    To document the source code, we can use the documentation comment.
+
+Note: semicolon `;` indicates the end of the statement.
+
+white-space in java(space-bar character)
+-------------------
+- white spaces will be ignored by the java compiler
+- white space can be used for better readability purpose.
+- the entire program can be written in a single line, but it will be difficult to understand by the new developers.
+- To avoid the confusions we can use as many white spaces required.
+- we can use the white-spaces in the form of indentation.
+
+Note: indentation is nothing but the required white-spaces according to the coding stadards for better readability.
+
+Errors and Warnings
+--------------------
+- Errors and Warning in java are the red-flags.
+- In case of Error its a serious one
+  Ex: syntax errors 
+- Warning is not serious but it should considered.
+- If we try to write the code which not usual and it may cause some issue, in those cases compiler will throw warning.
